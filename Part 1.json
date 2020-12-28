@@ -1,0 +1,55 @@
+{
+  "fields" : [
+    {
+    "id" : 0,
+    "description" : "field 1",
+    "direction" : "Direction 1",
+    "photo" :  "/field-1.png",
+    "coordinates" : [41.38106503290911, 2.1227768821532913]
+    }
+    ],
+    "fields_availability_slots": [
+      {
+        "id":0,
+        "fieldId" : 0,
+        "bussy" : false,
+        "shiftStart" : "2020-02-13T17:00:00",
+        "shiftEnd" : "2020-02-13T18:00:00"
+      }
+    ],
+    "game": {
+      "id": 0,
+      "start": "2020-02-13T17:57:28.556094Z",
+      "coordinates" : [41.38106503290911, 2.1227768821532913],
+      "fieldId": 0
+    },
+    "users" : 
+    [
+      {
+        "id": 0,
+        "name" : "name 1",
+        "email" : "name@mail.com"
+      }
+    ],
+    "game_signup": [
+      {
+        "id" : 0,
+        "gameId" : 0,
+        "userId": 0,
+        "name" : "name 1"
+      }
+    ],
+    "game_review": [
+      {
+        "id": 0,
+        "gameId": 0,
+        "userId": 0,
+        "stars": 5
+      }
+    ],
+    "chat" : [{
+      "id" : 0,
+      "fromUserId": 0,
+      "toUserId" : 1
+    }]
+}
